@@ -19,7 +19,7 @@ const App = () => {
       <ul>
       {searchArray.filter((item)=>{
         if(searchinput==""){
-          return item;
+          return ;
         }else if(item.toLowerCase().includes(searchinput.toLowerCase())){
           return item;
         }
