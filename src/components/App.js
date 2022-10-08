@@ -14,7 +14,7 @@ const App = () => {
   
   return (
     <div id="main">
-      <input  onChange={handle} value={searchinput}/>
+      <input id="search-input" onChange={handle} value={searchinput}/>
       <h1>Result</h1>
       <ul>
       {searchArray.filter((item)=>{
